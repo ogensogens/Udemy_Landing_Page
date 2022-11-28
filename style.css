@@ -341,19 +341,28 @@ form img {
     width: 110%;
 } */
 .billboard-flex-1 {
-  /* border: 1px solid red; */
-  width: 300px;
-}
-.flex-1-card-details {
-  display: none;
-  font-size: 15px;
-  align-items: center;
-  border: 1px solid wheat;
-  position: relative;
-  width: fit-content;
-  height: fit-content;
-  border-radius: 10px;
-}
+    /* border: 1px solid red; */
+    width: 300px;
+   
+    position:relative
+  }
+  .flex-1-card-details {
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    top: -30px;
+    left: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    z-index: 2;
+    align-items: center;
+    border: 1px solid wheat;
+    /* position: relative; */
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+  }
 
 
 
